@@ -12,7 +12,7 @@ def create_connection():
     return conn
 
 def main():
-    st.title("APARICHIT TRUTH 2024")
+    st.title("APARICHIT TRUTH ELECTION 2024")
 
     age = st.number_input("Enter your age :",min_value=0,max_value=150,value=18)
     gender = st.selectbox("Select your gender :",["Male","Female","Other"])
