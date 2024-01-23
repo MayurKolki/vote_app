@@ -12,14 +12,13 @@ def create_connection():
     return conn
 
 def main():
-    st.title("APARICHIT TRUTH ELECTION 2024")
+    st.title("APARICHIT TRUTH 2024")
 
     age = st.number_input("Enter your age :",min_value=0,max_value=150,value=18)
     gender = st.selectbox("Select your gender :",["Male","Female","Other"])
     candidate = st.radio("Choose your Candidate :",["N D A","I N D I A","None"])
 
     if age and gender and candidate:
-        st.write("changing to test")
         st.write(f"Your age : {age}")
         st.write(f"Your gender : {gender}")
         st.write(f"Your candidate : {candidate}")
