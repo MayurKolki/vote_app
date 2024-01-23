@@ -19,6 +19,7 @@ def main():
     candidate = st.radio("Choose your Candidate :",["N D A","I N D I A","None"])
 
     if age and gender and candidate:
+        st.write("changing to test")
         st.write(f"Your age : {age}")
         st.write(f"Your gender : {gender}")
         st.write(f"Your candidate : {candidate}")
